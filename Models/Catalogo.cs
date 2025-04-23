@@ -1,6 +1,6 @@
 class Catalogo{
 
-    static public Dictionary<int,Album> albumes;
+    static public Dictionary<int,Album> albumes{get; set;}
 
     static Catalogo(){
         albumes = new Dictionary<int, Album>();
@@ -17,5 +17,9 @@ class Catalogo{
         string foto = "AlbumPortada.png";
         albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto));
 
+    }
+
+    static public Dictionary<int,Album> devolverCatalogo(){
+        return albumes;
     }
 }

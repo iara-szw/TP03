@@ -1,11 +1,11 @@
 class Album{
     
-    string nombre;
-    Artista artista;
-    string productor;
-    string genero;
-    List<Cancion>temas;
-    string foto;
+    public string nombre{get; private set;}
+   public Artista artista{get; private set;}
+    public string productor{get; private set;}
+    public string genero{get; private set;}
+    public List<Cancion>temas{get; private set;}
+    public string foto{get; private set;}
 
     public Album(string Nombre, Artista Artista, string Productor,string Genero, List<Cancion> Temas, string Foto){
         nombre = Nombre;

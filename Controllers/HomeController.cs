@@ -17,4 +17,20 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult SelectAlbum()
+    {
+         ViewBag.Catalogo = Catalogo.devolverCatalogo();
+        if(ViewBag.Catalogo.Count == 0){
+             Catalogo.InicializarCatalogo(); 
+             ViewBag.Catalogo = Catalogo.devolverCatalogo();
+        }
+        return View();
+    }
+
+        public IActionResult verAlbum(int id)
+    {
+        return View();
+    }
+
 }

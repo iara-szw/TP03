@@ -1,6 +1,6 @@
 class Artista{
-    string nombre;
-    string descripcion;
+    public string nombre{get; private set;}
+    public string descripcion{get; private set;}
 
     public Artista (string Nombre,string Descripcion){
         nombre = Nombre;
