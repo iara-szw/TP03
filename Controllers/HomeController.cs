@@ -20,16 +20,18 @@ public class HomeController : Controller
 
     public IActionResult SelectAlbum()
     {
-         ViewBag.Catalogo = Catalogo.devolverCatalogo();
-        if(ViewBag.Catalogo.Count == 0){
+         ViewBag.catalogo = Catalogo.devolverCatalogo();
+        if(ViewBag.catalogo.Count == 0){
              Catalogo.InicializarCatalogo(); 
-             ViewBag.Catalogo = Catalogo.devolverCatalogo();
+             ViewBag.catalogo = Catalogo.devolverCatalogo();
         }
         return View();
     }
 
-        public IActionResult verAlbum(int id)
+        public IActionResult VerAlbum(int id)
     {
+        ViewBag.album = Catalogo.albumes[id];
+        ViewBag.listaTemas = Catalogo.albumes[id].temas;
         return View();
     }
 

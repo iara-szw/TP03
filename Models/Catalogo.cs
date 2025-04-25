@@ -15,7 +15,16 @@ class Catalogo{
         List<Cancion> temas = new List<Cancion> { new Cancion("nombre", 3.15), new Cancion("nombre2", 3.15),new Cancion("nombre3", 3.15)};
         int id = 123;
         string foto = "AlbumPortada.png";
-        albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto));
+        albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto, id));
+
+         nombre = "Album2";
+         artista = new Artista("nombreArtista2","descripcion");
+         productor = "Productor2";
+         genero = "Genero2";
+         temas = new List<Cancion> { new Cancion("nombre", 3.15), new Cancion("nombre2", 3.15),new Cancion("nombre3", 3.15)};
+         id = 124;
+         foto = "AlbumPortada2.png";
+        albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto, id));
 
     }
 
