@@ -1,7 +1,7 @@
 class Album{
     
     public string nombre{get; private set;}
-   public Artista artista{get; private set;}
+    public Artista artista{get; private set;}
     public string productor{get; private set;}
     public string genero{get; private set;}
     public List<Cancion>temas{get; private set;}

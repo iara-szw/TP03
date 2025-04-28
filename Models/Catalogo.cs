@@ -15,7 +15,7 @@ class Catalogo{
         List<Cancion> temas = new List<Cancion> { new Cancion("nombre", 3.15), new Cancion("nombre2", 3.15),new Cancion("nombre3", 3.15)};
         int id = 123;
         string foto = "AlbumPortada.png";
-        albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto, id));
+        crearAlbum(nombre, artista, productor, genero, temas, foto, id);
 
          nombre = "Album2";
          artista = new Artista("nombreArtista2","descripcion");
@@ -24,11 +24,25 @@ class Catalogo{
          temas = new List<Cancion> { new Cancion("nombre", 3.15), new Cancion("nombre2", 3.15),new Cancion("nombre3", 3.15)};
          id = 124;
          foto = "AlbumPortada2.png";
-        albumes.Add(id,new Album(nombre, artista, productor, genero, temas, foto, id));
+         crearAlbum(nombre, artista, productor, genero, temas, foto, id);
 
     }
 
     static public Dictionary<int,Album> devolverCatalogo(){
         return albumes;
+    }
+
+    static public void crearAlbum (string Nombre, Artista artista, string productor, string genero,List<Cancion> temas,string foto,int id)
+    {
+        bool yaExiste = false;
+            foreach (Album alb in albumes.Values){
+                if(alb.nombre == Nombre){
+                    yaExiste=true;
+                }
+            }
+            if(!yaExiste){
+                   albumes.Add(id,new Album(Nombre, artista, productor, genero, temas, foto, id));
+            }
+         
     }
 }

@@ -1,11 +1,11 @@
 @{
     ViewData["Title"] = "VerCatalogo";
 }
-
+<link rel="stylesheet" href="/css/style.css">
 <div>
     <h2>Catalogo:</h2>
     @{foreach(Album alb in ViewBag.Catalogo.Values){
-        <h1>alb.nombre</h1>
+        <h1>@alb.nombre</h1>
         <img scr= "/imagenes/alb.foto" alt="Portada del album"/>
         <a href='@Url.Action("VerAlbum", new{id=alb.id})'> Ver mas información</a>
     }
