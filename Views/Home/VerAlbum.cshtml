@@ -2,17 +2,23 @@
     ViewData["Title"] = "InfoAlbum";
 }
 <link rel="stylesheet" href="/css/style.css">
-<div>
+    <div>
+
     <h1>@ViewBag.album.nombre</h1>
-    <h3>De: @ViewBag.album.artista</h3>
-    <img scr= "/imagenes/@ViewBag.album.foto" alt="Portada del album"/>
-    <h3>Productor: @ViewBag.album.productor</h3>
-    <h3>Genero: @ViewBag.album.genero</h3>
+    <div class="info">
+<h3>@ViewBag.album.artista</h3>
+    <img src= "~/img/@ViewBag.album.foto" alt="Portada del album"/>
+    <h4>Productor: <i> @ViewBag.album.productor</i></h4>
+    <h4>Genero: <i>@ViewBag.album.genero</i></h4>
+    <div class="lista-canciones">
     <h3>Lista de canciones:</h3>
     @{foreach(Cancion cancion in ViewBag.listaTemas){
-        <h3> @cancion.nombre </h3>
-        <h4> @cancion.duracion </h4>
+        <h4> @cancion.nombre </h4>
+        <p> @cancion.duracion </p>
     }}
-    <h3>ID: @ViewBag.album.id</h3>
+    </div>
+    <h4>ID:<i>@ViewBag.album.id</i></h4>
     <a href='@Url.Action("Index")'> Volver al menu</a>
 </div>
+</div>
+

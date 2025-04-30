@@ -4,11 +4,17 @@
 <link rel="stylesheet" href="/css/style.css">
 <div>
     <h2>Catalogo:</h2>
+           <section>
     @{foreach(Album alb in ViewBag.Catalogo.Values){
-        <h1>@alb.nombre</h1>
-        <img scr= "/imagenes/alb.foto" alt="Portada del album"/>
+        <div class= "album">
+        <h3>@alb.nombre</h3>
+        <img src= "~/img/alb.foto" alt="Portada del album" class="portada"/>
         <a href='@Url.Action("VerAlbum", new{id=alb.id})'> Ver mas información</a>
+        </div>
     }
 
     }
+    </section>
 </div>
+
+

@@ -1,5 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: solid 1px black;
+}
 header{
     width:100%;
     height:auto;
     background-color: rgb(16, 66, 131);
 }
+.portada{
+    width: 25%;
+    height: auto;  
+}
+div .info{
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+h1{
+    text-align: center;
+}
+.album{
+    width:25%;
+    padding: 1.5%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1%;
+    margin: 2%;
+}
+div .lista-canciones{
+    margin: 5%;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+
+}
+i{
+    font-weight: normal;
+    font-style: normal;
+  }
