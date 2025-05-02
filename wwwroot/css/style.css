@@ -1,32 +1,55 @@
 *{
     margin: 0%;
     padding: 0%;
-    border: solid 1px black;
+    /*border:1px solid black;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 header{
     width:100%;
     height:auto;
-    background-color: rgb(16, 66, 131);
+    padding-bottom: 2%;
+    background-color: #0D1B2A;
+    padding-top:1%;
 }
-.portada{
-    width: 25%;
-    height: auto;  
+header h1{
+    margin-bottom: 0.5%;
+    color:#E0E1DD;
 }
-div .info{
-    margin: 5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+ a{
+    text-decoration: none;
+}
+div{
+    clear:both;
+}
 
+div a p{
+    
+    color: #E0E1DD;
+    background-color: #1B263B;
+    border-radius: 5px;
+    text-align:center;
+    width:50%;
+    height:auto;
+    margin-left:25%;
+    margin-top:2%;
+    padding:1%;
+ }
+
+div h2{
+    text-align:center;      
 }
-h1{
-    text-align: center;
+div p{
+    margin-top:0.5%;
+    text-align:center;
+    font-weight: bold;
 }
-.album{
-    width:25%;
-    padding: 1.5%;
-    align-items: center;
-    margin-bottom: 2%;
+div img{
+    width:30%;
+    margin-left:35%;
+    margin-top:2%;
 }
+
 section
 {
     display: flex;
@@ -36,13 +59,98 @@ section
     gap: 1%;
     margin: 2%;
 }
-div .lista-canciones{
+.album{
+    width:25%;
+    padding: 1.5%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+div h2{
+    text-align:center;
+    font-size: 180%;
+    background-color: #415A77;
+    color:#E0E1DD;
+    padding:1%;
+}
+.album{
+    background-color: #778DA9;
+    border-radius:5px;
+}
+.album img{
+    width: 99%;
+    height: auto;  
+    border-radius:5px;
+    border:3px solid #1B263B;
+    margin:0%;
+}
+.album h3{
+    text-align: center;
+    color:#E0E1DD;
+    margin-bottom: 2%;
+    font-size:130%;
+}
+.info{
+    margin: 5%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    background-color: #415A77;
+    padding-bottom:2%;
+}
+.info h3{
+    text-align:center;
+    margin-bottom:1%;
+    font-size:120%;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+
+.info h4{
+    margin-left:35%;
+}
+ .lista-canciones{
     margin: 5%;
     margin-top:1.5%;
-    margin-bottom:1.5%;
+    margin-bottom:0.2%;
+    padding:2%;
+    background-color: #778DA9;
+    border-radius: 5px;
+}
+.lista-canciones h4, p{
+    text-align:center;
+    margin-left:5%;
+    padding-right:5%;
+    margin-bottom:0.5%;
 
 }
 i{
     font-weight: normal;
     font-style: normal;
   }
+.info h5{
+    text-align:center;
+}
+nav {
+   
+    margin-left:15%;
+
+}
+ nav a p{
+    background-color:#0D1B2A;
+    border-radius:0px;
+    color:#E0E1DD;
+    text-align: center;
+    width:20%;
+    height:auto;
+    padding:0%;
+    margin:0%;
+    float:left;
+    border-right: 3px solid #778DA9;
+  
+}
+
+footer p{
+    text-align: center;
+    color:#E0E1DD;
+}

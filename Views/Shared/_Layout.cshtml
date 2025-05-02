@@ -4,13 +4,20 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NombreProyecto</title>
+    <title>@ViewData["Title"] - Sound music store</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
     <header>
-        <h1>Sound music store</h1>
+        <h1>Sound Music Store</h1>
+        <nav>
+            
+                <a href='@Url.Action("Index")'><p>Home</p></a>
+                <a href='@Url.Action("SelectAlbum")'><p>Nuestro catalogo</p></a>
+                <a href=''><p>Sobre nosotros</p></a>
+                <a href=''><p>Contactanos</p></a>
+        </nav>
     </header>
 
     <main role="main">
@@ -18,7 +25,9 @@
     </main>
 
     <footer>
-        &copy; @DateTime.Now.Year - NombreProyecto
+        <p>© 2025 - Sound Music Store</p>
+        <p>SMS</p>
+
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

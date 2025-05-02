@@ -15,8 +15,10 @@ body {
 
 
 footer {
-  margin-top: 10px;
+  margin-top: 5%;
   padding: 10px;
-  background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
+  width:99%;
+  height:auto;
+  background-color: #0D1B2A;
+
 }

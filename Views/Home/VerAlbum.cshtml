@@ -4,21 +4,22 @@
 <link rel="stylesheet" href="/css/style.css">
     <div>
 
-    <h1>@ViewBag.album.nombre</h1>
+   
     <div class="info">
-<h3>@ViewBag.album.artista</h3>
+    <h1>@ViewBag.album.nombre</h1>
+    <h3>@ViewBag.album.artista.nombre</h3>
     <img src= "~/img/@ViewBag.album.foto" alt="Portada del album"/>
     <h4>Productor: <i> @ViewBag.album.productor</i></h4>
     <h4>Genero: <i>@ViewBag.album.genero</i></h4>
     <div class="lista-canciones">
     <h3>Lista de canciones:</h3>
     @{foreach(Cancion cancion in ViewBag.listaTemas){
-        <h4> @cancion.nombre </h4>
-        <p> @cancion.duracion </p>
+        <h4> @cancion.nombre <i> @cancion.duracion minutos</i> </h4>
+     
     }}
     </div>
-    <h4>ID:<i>@ViewBag.album.id</i></h4>
-    <a href='@Url.Action("Index")'> Volver al menu</a>
+    <h5>ID:<i>@ViewBag.album.id</i></h5>
+    <a href='@Url.Action("SelectAlbum")'><p>Volver al catalogo</p></a>
 </div>
 </div>
 
