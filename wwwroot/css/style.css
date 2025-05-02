@@ -91,7 +91,8 @@ div h2{
 }
 .info{
     margin: 5%;
-    margin-top: 0.5%;
+    margin-top: 0%;
+    padding-top: 2%;
     margin-bottom: 0%;
     background-color: #415A77;
     padding-bottom:2%;

@@ -1,79 +1,91 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\img\\Troubleshooting.jpeg",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\Freeze.jpeg",
+      "PackagePath": "staticwebassets\\img\\Freeze.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\Troubleshooting.jpeg",
       "PackagePath": "staticwebassets\\img\\Troubleshooting.jpeg"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\img\\footloose.jpg",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\footloose.jpg",
       "PackagePath": "staticwebassets\\img\\footloose.jpg"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\img\\tienda.jpeg",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\infinitelyOrdinary.jpg",
+      "PackagePath": "staticwebassets\\img\\infinitelyOrdinary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\speakNow.jpg",
+      "PackagePath": "staticwebassets\\img\\speakNow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\tienda.jpeg",
       "PackagePath": "staticwebassets\\img\\tienda.jpeg"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

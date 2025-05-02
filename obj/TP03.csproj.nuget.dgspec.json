@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\TP03.csproj": {}
+    "C:\\Users\\iarit\\Downloads\\TP03-1\\TP03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\TP03.csproj": {
+    "C:\\Users\\iarit\\Downloads\\TP03-1\\TP03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\TP03.csproj",
+        "projectUniqueName": "C:\\Users\\iarit\\Downloads\\TP03-1\\TP03.csproj",
         "projectName": "TP03",
-        "projectPath": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\TP03.csproj",
+        "projectPath": "C:\\Users\\iarit\\Downloads\\TP03-1\\TP03.csproj",
         "packagesPath": "C:\\Users\\iarit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iarit\\Downloads\\TP03\\TP03\\obj\\",
+        "outputPath": "C:\\Users\\iarit\\Downloads\\TP03-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iarit\\AppData\\Roaming\\NuGet\\NuGet.Config",
