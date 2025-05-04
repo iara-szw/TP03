@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\Disenchanted.jpeg",
+      "PackagePath": "staticwebassets\\img\\Disenchanted.jpeg"
+    },
+    {
       "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\Freeze.jpeg",
       "PackagePath": "staticwebassets\\img\\Freeze.jpeg"
     },
@@ -25,12 +33,28 @@
       "PackagePath": "staticwebassets\\img\\footloose.jpg"
     },
     {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\imagine.jpeg",
+      "PackagePath": "staticwebassets\\img\\imagine.jpeg"
+    },
+    {
       "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\infinitelyOrdinary.jpg",
       "PackagePath": "staticwebassets\\img\\infinitelyOrdinary.jpg"
     },
     {
-      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\speakNow.jpg",
-      "PackagePath": "staticwebassets\\img\\speakNow.jpg"
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\pabloHoney.jpeg",
+      "PackagePath": "staticwebassets\\img\\pabloHoney.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\pianoBar.jpeg",
+      "PackagePath": "staticwebassets\\img\\pianoBar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\room1.jpeg",
+      "PackagePath": "staticwebassets\\img\\room1.jpeg"
     },
     {
       "Id": "C:\\Users\\iarit\\Downloads\\TP03-1\\wwwroot\\img\\tienda.jpeg",
